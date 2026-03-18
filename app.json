@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "Developer Mood Tracker",
+    "slug": "developer-mood-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "description": "Track developer moods with XP, streaks, and unlockable achievements.",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F4F7FB"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.student.developermoodtracker",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.student.developermoodtracker",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "projectName": "Developer Mood Tracker",
+      "eas": {
+        "projectId": "1fe59be0-546f-4a74-931a-ee79106145e9"
+      }
+    }
+  }
+}
